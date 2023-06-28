@@ -2,11 +2,11 @@
 
 require('fpdf.php');
 
-$host = "187.160.239.37";
-$port = "5432";
-$dbname = "feria";
-$user = "postgres";
-$password = "Eisa2022.";
+$host = "";
+$port = "";
+$dbname = "";
+$user = "";
+$password = "";
 
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
 
